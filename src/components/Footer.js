@@ -38,7 +38,7 @@ function Footer() {
           <div className='social-icons'>
             <a
               class='social-icon-link facebook'
-              href='https://www.twitch.tv/professorkoala/videos?filter=all&sort=views'
+              href='https://www.facebook.com/graphicpointandsign'
               target='_blank'
               aria-label='Facebook'
             >
