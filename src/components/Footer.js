@@ -20,6 +20,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <p>Phone: 0161 763 7619</p>
             <p>Mobile: 07756 409 725</p>
+            <p>Email: graphicpointandsign@outlook.com</p>
             <p> 81 Machester Street, Heywood, 0L10 1PB</p>
           </div>
         </div>

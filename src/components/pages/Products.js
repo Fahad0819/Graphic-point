@@ -32,7 +32,21 @@ export default function Products() {
     <>
    <InfoSection/>
    
+   
+   
    <div className='back'>
+<div className='block'>
+
+   <div className='picture'>
+   <img src='/images/infoi.jpeg' />
+   </div>
+   <div className='redblock'>
+    <h1></h1>
+   </div>
+   </div>
+   <div className='redblock'>
+
+   </div>
    <CardFlip body={body1} img={img1} sec={sec1} title={title1}/>
    <div className='infocard'>
    <CardFlip body={body2} img={img2} sec={sec2} title={title2}/>
