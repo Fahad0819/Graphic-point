@@ -1,0 +1,45 @@
+
+.container img{
+  width: 100%;
+}
+.container {
+  width: 50% ;
+  background-color: rgb(174, 174, 174);
+}
+.title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.text{
+  font-size: large;
+
+}
+.text2 {
+  display: flex;
+  width: 100%;
+  padding-left: 25%;
+}
+.text2 li{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  padding-bottom: 10px;
+}
+.middle {
+  margin-bottom: 50px;
+ margin-left: 30%;
+}
+.back1{
+  border-radius: 10px;
+  display: flex;
+}
+.container3{
+  width: 50%;
+  background-color: rgb(185, 185, 185);;
+}
+.title h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+.SCards{
+  background-color: white;
+  display: flex;
+}

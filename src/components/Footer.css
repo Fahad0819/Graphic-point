@@ -13,25 +13,22 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-
-  margin-bottom: 24px;
   padding: 24px;
   color: #fff;
 }
 
-.footer-subscription > p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-}
+
 
 .footer-subscription-heading {
   margin-bottom: 24px;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .footer-subscription-text {
-  margin-bottom: 24px;
   font-size: 20px;
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .footer-input {
@@ -59,14 +56,18 @@
 .footer-link-items {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 16px;
-  text-align: left;
-  width: 160px;
+  /* align-items: flex-start; */
+  margin: 6px;
+  text-align: center;
   box-sizing: border-box;
+  color: white;
 }
-
+.footer-link-items p{
+  text-align: center;
+  margin-bottom: 16px;
+}
 .footer-link-items h2 {
+  font-size: 30px;
   margin-bottom: 16px;
 }
 
@@ -89,22 +90,21 @@
   margin-bottom: 2rem;
 }
 
-.footer-input::placeholder {
-  color: #b1b1b1;
-}
-
 /* Social Icons */
 .social-icon-link {
   color: #fff;
   font-size: 24px;
+  align-content: end;
 }
 
 .social-media {
+  margin-right: 250px;
   max-width: 1000px;
   width: 100%;
 }
 
 .social-media-wrap {
+  margin-left: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,8 +116,8 @@
 .social-icons {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 240px;
+  align-items: end;
+  width: 24px;
 }
 
 .social-logo {
@@ -126,7 +126,7 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   margin-bottom: 16px;
@@ -142,9 +142,6 @@
     padding-top: 2rem;
   }
 
-  .footer-input {
-    width: 100%;
-  }
 
   .btn {
     width: 100%;
